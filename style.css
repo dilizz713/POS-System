@@ -1,4 +1,7 @@
 body {
+
+}
+.login , .signup {
     background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
     height: 100vh;
     margin: 0;
@@ -6,7 +9,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .popup-box {
     background-color: #dcdcdc;
     width: 800px;
@@ -77,4 +79,98 @@ body {
 }
 .signup-btn:hover{
     background-color: #e0e000;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: #343a40;
+}
+.header .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+.header .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+.main-content {
+    background-color: #226478;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn-save {
+    background-color: #f8ff94;
+    font-weight: bold;
+}
+.btn-update {
+    background-color: #ff91b8;
+    font-weight: bold;
+}
+.btn-delete {
+    background-color: darkred;
+    font-weight: bold;
+}
+.btn-reset {
+    background-color: #c88fff;
+    font-weight: bold;
+}
+.btn-history{
+    background-color: coral;
+    font-weight: bold;
+}
+.btn-delete:hover  , .btn-save:hover , .btn-reset:hover ,.btn-update:hover ,.btn-history:hover , .btn-order:hover {
+    background-color: wheat;
+}
+.btn-order{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+}
+.second-btn-grp{
+    margin-top: 50px;
+}
+.form-control {
+    border-radius: 10px;
+}
+
+table {
+    background-color: white;
+    color: black;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.id-with-date{
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-btn{
+    background-color: dimgray;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card i {
+    font-size: 2.5rem;
+}
+.welcome {
+    font-size: 1.5rem;
+}
+.topic-div{
+    margin-top: 100px;
+}
+.cards-div{
+    margin-top: 100px;
 }
