@@ -46,7 +46,9 @@ body {
     font-size: 0.9rem;
     text-decoration: none;
 }
-
+.container{
+    margin-top: 100px;
+}
 .signup-text {
     color: lightgreen;
     font-size: 0.9rem;
